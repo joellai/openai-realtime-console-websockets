@@ -180,7 +180,9 @@ export function ConsolePage() {
     await wavStreamPlayer.connect();
 
     // Connect to realtime API
+    console.log("eheerasfsdf")
     await client.connect();
+    console.log("end connect")
     client.sendUserMessageContent([
       {
         type: `input_text`,
